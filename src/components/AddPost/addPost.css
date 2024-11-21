@@ -1,0 +1,76 @@
+.profilePic2{
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+    border-radius: 50px;
+    margin-right: 5px;
+}
+
+.addPostTop{
+  display: flex;
+  margin-top: 30px;
+  margin-left: 50px;
+
+}
+
+.addPostInput{
+    border-style: none;
+    margin-left: 15px;
+    width: 80%;
+    font-family: sans-serif;
+    font-size: 15px;
+    
+}
+.addPostInput:focus{
+    outline: none;
+}
+
+.addPost{
+    width:95%;
+    align-items: center;
+    border-radius: 10px;
+    height: 185px;
+    
+    /* background-color: rgb(135, 139, 139); */
+    margin-top: 10px;
+    margin-left: 10px;
+    -webkit-box-shadow: 5px 5px 14px 5px rgba(0,0,0,0.27); 
+    box-shadow: 5px 5px 14px 5px rgba(0,0,0,0.27);
+    
+}
+
+.addpostContainer{
+    padding: 2px;
+
+}
+
+.addPostHr{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.addPostBottom{
+
+    padding-left:50px;
+    padding-top: 20px;
+}
+.addPostOptions{
+    display: flex;
+    align-items: center;
+    /* margin-right: 30px; */
+    
+}
+.addPostOption{
+    display: flex;
+    margin-right: 30px;
+    padding: 12px; 
+    align-items: center;
+    cursor:pointer;
+}
+
+.postButton{
+   margin-left: 25px;
+   padding: 5px;
+   border-radius: 5px;
+   width: 70px;
+   background-color: rgb(195, 195, 255);
+}
